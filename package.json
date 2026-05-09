@@ -7,7 +7,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.16",
+    "@whiskeysockets/baileys": "6.6.0",
     "dotenv": "^16.4.7",
     "node-cron": "^3.0.3",
     "pino": "^9.6.0",
