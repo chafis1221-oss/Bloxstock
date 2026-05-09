@@ -1,0 +1,10 @@
+[phases.setup]
+aptPkgs = [
+  "chromium",
+  "nss",
+  "atk",
+  "at-spi2-core",
+  "gtk3",
+  "libxss1",
+  "libasound2"
+]

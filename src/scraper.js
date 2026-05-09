@@ -4,7 +4,7 @@ async function scrapeStock() {
   const browser = await puppeteer.launch({
     headless: "new",
     executablePath:
-      "/data/data/com.termux/files/usr/bin/chromium-browser",
+      "/usr/bin/chromium",
     args: [
       "--no-sandbox",
       "--disable-setuid-sandbox",
