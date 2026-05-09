@@ -1,0 +1,14 @@
+services:
+  - type: worker
+    name: blox-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: TARGET_NUMBERS
+        sync: false  # Isi manual di Render dashboard
+      - key: CRON_SCHEDULE
+        value: "0 */4 * * *"
+    disk:
+      name: session-data
+      mountPath: /app/session
+      sizeGB: 1
